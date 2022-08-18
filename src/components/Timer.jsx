@@ -16,11 +16,11 @@ const Timer = () => {
         if (start) {
             interval = setInterval(() => {
                 // Continue running the timer only if its current value is greater then 0
-                setCountdown(prevCountdown => prevCountdown > 0 ? prevCountdown - 1 : setCountdown(0))
+                setCountdown(prevCountdown => prevCountdown > 0 ? prevCountdown - 1 : resetCountdown())
             }, 1000)
         }
         // If the timer reaches zero, or the reset button has been pressed,
-        // clear the time interval and stop counting on the timer
+        // clear the time interval and reset the timer
         return () => clearInterval(interval)
     }, [start])
 
