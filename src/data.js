@@ -1,3 +1,4 @@
+// Basic user information to be displayed in the header of the page
 const UserInfo = {
     firstName: "Sohaib",
     lastName: "Ahmed",
@@ -5,6 +6,7 @@ const UserInfo = {
     height: `5'11"`
 };
 
+// Full workout routine consisting of each workout
 const Routine = [
     {
         day: "Push",
