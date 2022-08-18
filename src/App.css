@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  background: #243B4A;
+}
+
+.bubble {
+  background: white;
+  padding: 0 20px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* HEADER START */
+.header-container {
+  color: black;
+}
+.header-info {
+  font-weight: 600;
+}
+/* HEADER END */
+
+/* NAVBAR START */
+
+/* NAVBAR END */
+
+/* WORKOUT START */
+.workout-list {
+  flex-wrap: wrap;
+}
+
+.exercise-card {
+  position: relative;
+  background: #243B4A;
+  font-weight: 300;
+  width: 175px;
+  height: 180px;
+  padding: 5px;
+  /* box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+}
+
+.exercise-info {
+  font-weight: 600;
+}
+
+.exercise-superset {
+  position: absolute;
+  top: 140px;
+  left: 75px;
+  color: black;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.timer-container {
+  position: sticky;
+  top: 20px;
+  color: black;
+  max-height: 478.78px;
+}
+
+.countdown {
+  font-weight: 500;
+  font-size: 5rem;
+}
+/* WORKOUT END */
