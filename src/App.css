@@ -10,7 +10,7 @@
 body {
   color: white;
   font-family:'Montserrat', sans-serif;
-  background: #243B4A;
+  background: #3685B5;
 }
 
 .bubble {
@@ -19,6 +19,33 @@ body {
   border-radius: 12px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
+
+.navy-btn {
+  background: rgb(25, 63, 88);
+}
+
+/* TOP SVG START */
+
+.custom-shape-divider-top-1660877431 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1660877431 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1660877431 .shape-fill {
+  fill: #193F58BF;
+}
+/* TOP SVG END */
 
 /* HEADER START */
 .header-container {
@@ -40,7 +67,7 @@ body {
 
 .exercise-card {
   position: relative;
-  background: #243B4A;
+  background: rgb(25, 63, 88);
   font-weight: 300;
   width: 175px;
   height: 180px;

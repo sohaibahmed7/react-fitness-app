@@ -3,10 +3,10 @@ const Header = (props) => {
     const information = props.data
     return (
         // Simply returns all of the information from UserInfo in "data.js"
-        <div className='header-container bubble mt-5 pt-1 d-flex justify-content-between'>
+        <div className='header-container bubble mt-5 pt-1'>
             <h1 className='header-info'>Hello {information.firstName} {information.lastName} </h1>
-            <div>
-                <h4 className='header-info'>Current weight: {information.weight}lb</h4>
+            <div className="d-flex ">
+                <h4 className='header-info me-4'>Current weight: {information.weight}lb</h4>
                 <h4 className='header-info'>Current height: {information.height}</h4>
             </div>
         </div>
