@@ -15,7 +15,7 @@ const Workout = (props) => {
     })
 
     return (
-        <div className="my-3 bubble">
+        <div className="mt-2 mb-3 bubble">
             <div className="workout-list d-flex justify-content-center justify-content-sm-start pt-3">
                 {/* Renders the entire workout and displays it to the screen*/}
                 {workoutList}

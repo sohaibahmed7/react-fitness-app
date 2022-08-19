@@ -14,7 +14,7 @@ const Nav = (props) => {
 
     return (
         <div className="py-2 d-inline">
-            <button className="btn btn-dark btn-lg mb-2 me-3 col-md-2" onClick={handleClick}>{props.name}</button>
+            <button className="btn btn-dark btn-lg mb-2 me-md-3 col-12 col-lg-2" onClick={handleClick}>{props.name}</button>
             {/* If a button has been pressed, its corresponding workout will be rendered to the screen */}
             {isPressed && <Workout data={props.workout} day={props.name}/> }
         </div>

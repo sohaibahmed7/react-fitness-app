@@ -160,6 +160,58 @@ const Routine = [
                 reps: "10 - 12"
             }
         ]
+    },
+    {
+        day: "Abs 1",
+        workout: [
+            {
+                id: 1,
+                name: "Standard Cruches",
+                sets: 3,
+                time: 30,
+                superset: true
+            },
+            {
+                id: 2,
+                name: "Reverse Crunches",
+                sets: 3,
+                time: 30,
+                superset: true
+            },
+            {
+                id: 3,
+                name: "DB Plank Pull Through",
+                sets: 3,
+                time: 30,
+                superset: true
+            },
+        ]
+    },
+    {
+        day: "Abs 2",
+        workout: [
+            {
+                id: 1,
+                name: "V-Ups",
+                sets: 3,
+                time: 30,
+                superset: true
+            },
+            {
+                id: 2,
+                name: "Plank Knee to Elbow",
+                sets: 3,
+                time: 30,
+                superset: true
+            },
+            {
+                id: 3,
+                name: "Leg Raise & Twist",
+                sets: 3,
+                time: 30,
+                superset: true
+            },
+        ]
     }
 ]
 

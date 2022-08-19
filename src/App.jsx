@@ -21,7 +21,7 @@ const App = () => {
         {/* Displaying the user information from "data.js"*/}
         <Header data={Data.UserInfo}/> 
         <div className='mt-3 d-md-flex'>
-          <div className='container-fluid ps-0'>
+          <div className='container-fluid ps-0 pe-0 pe-md-3'>
             <h2>Select Workout</h2>
             {/* Displaying the nav buttons that were created*/}
             {workout}
