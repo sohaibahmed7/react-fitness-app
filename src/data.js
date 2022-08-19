@@ -3,7 +3,7 @@ const UserInfo = {
     firstName: "Sohaib",
     lastName: "Ahmed",
     weight: 164,
-    height: `5'11"`
+    height: `6'0"`
 };
 
 // Full workout routine consisting of each workout
